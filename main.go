@@ -2,11 +2,19 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
 )
 
 func main(){
-	fmt.Println("My favorite number is", rand.Intn(10))
+	//Println:そのまま並べる
+	fmt.Println("name:", "Messi", "age:", 38)
 
-	fmt.Printf("数値は %dです", 42)
+	//Printf: フォーマット指定で表示
+	name := "大谷"
+	age := 31
+	height := 193.5
+	fmt.Printf("%sさんは%d歳、身長は%.1fcmです\n", name, age, height)
+
+	// 型の確認(%T)
+	fmt.Printf("name の型: %T\n", name)
+	fmt.Printf("age の型: %T\n", age)
 }
