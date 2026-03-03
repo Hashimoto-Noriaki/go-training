@@ -19,16 +19,37 @@
 // 	fmt.Printf("age の型: %T\n", age)
 // }
 
-package main
+// package main
 
-import (
-	"fmt"
-	"math"
-)
+// import (
+// 	"fmt"
+// 	_"math"
+// )
+
+// func main(){
+// 	// fmt.Printf("Now you have %g problems.", math.Sqrt(7))
+// 	fmt.Printf("Now you have %g problems.")
+// }
+
+package main 
+
+import "fmt"
+
+func add(x int, y int) int {
+	return x + y
+}
 
 func main(){
+	fmt.Println(add(12,13))
+=======
+// import (
+// 	"fmt"
+// 	"math"
+// )
+
+//func main(){
 	// fmt.Printf("Now you have %g problems.", math.Sqrt(7))
 	// fmt.Printf("Now you have %g problems.")
-	fmt.Println(math.Pi)
+	//fmt.Println(math.Pi)
 }
 
