@@ -41,14 +41,14 @@
 	// fmt.Printf("Now you have %g problems.")
 	//fmt.Println(math.Pi)
 
-package main 
+// package main 
 
-import "fmt"
+// import "fmt"
 
-func add(x int, y int) int {
-	return x + y
-}
+// func add(x int, y int) int {
+// 	return x + y
+// }
 
-func main(){
-	fmt.Println(add(12,13))
-}
+// func main(){
+// 	fmt.Println(add(12,13))
+// }
