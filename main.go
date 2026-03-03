@@ -31,6 +31,16 @@
 // 	fmt.Printf("Now you have %g problems.")
 // }
 
+// import (
+// 	"fmt"
+// 	"math"
+// )
+
+//func main(){
+	// fmt.Printf("Now you have %g problems.", math.Sqrt(7))
+	// fmt.Printf("Now you have %g problems.")
+	//fmt.Println(math.Pi)
+
 package main 
 
 import "fmt"
@@ -41,15 +51,4 @@ func add(x int, y int) int {
 
 func main(){
 	fmt.Println(add(12,13))
-=======
-// import (
-// 	"fmt"
-// 	"math"
-// )
-
-//func main(){
-	// fmt.Printf("Now you have %g problems.", math.Sqrt(7))
-	// fmt.Printf("Now you have %g problems.")
-	//fmt.Println(math.Pi)
 }
-
