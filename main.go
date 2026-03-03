@@ -53,32 +53,51 @@
 // 	fmt.Println(add(12,13))
 // }
 
+// package main
+
+// import "fmt"
+
+// //足し算
+// func add(x int, y int) int {
+// 	return x + y
+// }
+
+// //掛け算
+// func multply(x int, y int) int {
+// 	return x * y 
+// }
+
+// // 結果表示
+// func printResult(label string, value int) {
+// 	fmt.Printf("%s: %d\n", label, value)
+// }
+
+// func main(){
+// 	a := 10
+// 	b := 5
+
+// 	sum := add(a,b)
+// 	product := multply(a,b)
+
+// 	printResult("足し算",sum)
+// 	printResult("掛け算",product)
+// }
+
 package main
 
 import "fmt"
 
-//足し算
-func add(x int, y int) int {
+//省略記法を使わない
+func addVerbose(x int, y int) int {
 	return x + y
 }
 
-//掛け算
-func multply(x int, y int) int {
-	return x * y 
-}
-
-// 結果表示
-func printResult(label string, value int) {
-	fmt.Printf("%s: %d\n", label, value)
+//足し算
+func add(x, y int) int {
+	return x + y
 }
 
 func main(){
-	a := 10
-	b := 5
-
-	sum := add(a,b)
-	product := multply(a,b)
-
-	printResult("足し算",sum)
-	printResult("掛け算",product)
+	fmt.Println("省略記法なし:",addVerbose(10,20))
+	fmt.Println("省略記法あり:",add(10,20))
 }
