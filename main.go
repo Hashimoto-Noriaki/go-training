@@ -83,21 +83,21 @@
 // 	printResult("掛け算",product)
 // }
 
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-//省略記法を使わない
-func addVerbose(x int, y int) int {
-	return x + y
-}
+// //省略記法を使わない
+// func addVerbose(x int, y int) int {
+// 	return x + y
+// }
 
-//足し算
-func add(x, y int) int {
-	return x + y
-}
+// //足し算
+// func add(x, y int) int {
+// 	return x + y
+// }
 
-func main(){
-	fmt.Println("省略記法なし:",addVerbose(10,20))
-	fmt.Println("省略記法あり:",add(10,20))
-}
+// func main(){
+// 	fmt.Println("省略記法なし:",addVerbose(10,20))
+// 	fmt.Println("省略記法あり:",add(10,20))
+// }
