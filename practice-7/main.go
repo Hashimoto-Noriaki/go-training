@@ -2,16 +2,22 @@ package main
 
 import "fmt"
 
+var (
+	appName string = "HashiApp"
+	appVersion string = "22.2.1"
+	maxUsers int = 10000
+)
+
+func printInfo(){
+	fmt.Println("アプリ名:", appName)
+	fmt.Println("バージョン名:", appVersion)
+	fmt.Println("最大ユーザー数:", maxUsers)
+}
+
 func main() {
-	var age int
-	var name string
-	var isPlayer bool
+	printInfo()
 
-	age = 31
-	name= "大谷"
-	isPlayer = true
-
-	fmt.Println("age:", age)
-	fmt.Println("name:", name)
-	fmt.Println("isPlayer:", isPlayer)
+	//関数内でも使える
+	fmt.Println("---")
+	fmt.Printf("%s (v%s)\n", appName, appVersion)
 }
