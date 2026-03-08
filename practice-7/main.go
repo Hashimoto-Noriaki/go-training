@@ -5,9 +5,13 @@ import "fmt"
 func main() {
 	var age int
 	var name string
-	var isStudent bool
+	var isPlayer bool
+
+	age = 31
+	name= "大谷"
+	isPlayer = true
 
 	fmt.Println("age:", age)
 	fmt.Println("name:", name)
-	fmt.Println("isStudent:",isStudent)
+	fmt.Println("isPlayer:", isPlayer)
 }
