@@ -8,7 +8,7 @@ func main(){
 	switch i {
 	case 0:
 		fmt.Println("case 0: 一致")
-	case checkCase(1);
+	case checkCase(1):
 		fmt.Println("case 1: 一致")
 	}
 }
